@@ -1,0 +1,114 @@
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #000000, #000000);
+}
+
+nav {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: transparent;
+}
+
+nav:hover{
+  background:transparent;
+  height: 80px;
+  width: 300px;
+  padding-top: 10px;
+  padding-left: 30px;
+}
+.calculator {
+  border: 1px solid #717377;
+  border-radius:16px ;
+  justify-content: space-between;
+  padding-left: 5px;
+  background-color: black; 
+  height: 410px;
+  width: 240px; 
+  box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+
+
+.inputText {
+  background-color: rgb(0, 0, 0); 
+  color: white; 
+  border: none; 
+  height: 35px; 
+  width: 226px; 
+  text-align: left; 
+  border-top-right-radius: 5px; 
+  border-top-left-radius: 5px; 
+  font-size: 2rem; 
+  padding: 0%; 
+  margin-top:16px;
+  padding-left: 8px;
+}
+
+
+.answer {
+  background-color: rgb(0, 0, 0); 
+  color: white; 
+  border: none; 
+  height: 35px; 
+  width: 226px;
+  text-align: right; 
+  font-size: 1.5rem;
+  margin-top: 2px;
+}
+.answer::placeholder{
+  color: #ffffff;
+}
+
+.btn-white {
+  height: 45px; 
+  width: 45px; 
+  border: none;
+  box-shadow: 0px 3px 15px #333333;
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+  margin: 8px 5px 8px 5px;
+  border-radius: 50%;
+  background-color: #333333;
+}
+
+.btn-white:hover{
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn-gray {
+  color: black;
+  background-color: #a6a6a6;
+}
+.btn-yellow {
+  background-color: #ff9f0a;
+}
+
+.btn-lg {
+  width: 102px;
+  border-radius: 30px 30px 30px 30px;
+  text-align: left;
+  padding-left: 17px;
+}
+
+footer {
+  position: absolute;
+  top: 600px;
+  right: 10px;
+  color: white;
+}
+a{
+  color: white;
+  font-weight: 500;
+  font-size: large;
+  font-family: 'Oswald', sans-serif;
+}
+a:hover{
+  color: rgb(250, 100, 0);
+}
